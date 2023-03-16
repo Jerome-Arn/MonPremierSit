@@ -36,7 +36,7 @@ nav {
 .item-nav{
     display:flex;
     align-items: center;
-}
+} 
 .item-nav a {
     font-size: 22px;
     color: #f1f1f1;
