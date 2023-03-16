@@ -184,3 +184,28 @@ nav {
     }
 
 }
+
+/* Section asymétrique */
+
+.section-asymetrique {
+    display: grid;
+    grid-template: 200px repeat(3, auto) / 1fr 600px 1fr;
+    background: #f1f1f1;
+}
+
+.section-asymetrique h2 {
+    grid-area: 1 / 1 / 2 /-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+/* Placement des éléments */
+
+.bloc-1,.img-grid-1{
+    grid-area: 2 / 2 / 3 / 3;
+}
