@@ -226,7 +226,6 @@ nav {
     border-radius: 2px;
     height:750px;
     margin-bottom: 250px;
-
 }
 
 .img-grid {
@@ -426,7 +425,7 @@ padding: 15px;
 }
 
 .parallax p {
-    font:65px;
+    font-size:65px;
     color: #f1f1f1;
 
 }
